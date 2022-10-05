@@ -161,7 +161,6 @@
    "karma": "karma start --circle true",
    "localization": "node scripts/execute-translation.js",
    "postinstall": "node postinstall/install.js",
-   "prepare": "husky install",
    "prepublishOnly": "gulp",
    "serve": "gulp bundle --custom-serve --max_old_space_size=4096 && fast-serve",
    "sonarcloud:config": "node ./scripts/sonarcloud.js",
